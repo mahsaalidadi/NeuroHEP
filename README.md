@@ -67,6 +67,7 @@ hep, hep_ecg = hep.detection.extract_heps(
 # Visualization
 hep.visualization.plot_ecg_eeg_with_hep()
 ```
+![download](https://github.com/user-attachments/assets/2e3890d1-89a4-4882-9aa6-47d4d6c3eaf7)
 
 ---
 
