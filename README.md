@@ -40,7 +40,7 @@ Here’s how to use **NeuroHEP** to process EEG and ECG data for HEP detection:
 ```python
 import neurokit2 as nk
 import numpy as np
-import NeuroHEP as hep
+import neurohep as hep
 
 # Generate synthetic ECG and EEG signals (5 subjects, 10s data, 250Hz)
 num_subjects = 5
