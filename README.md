@@ -30,9 +30,7 @@ pip install NeuroHEP
 Or install it manually from the source:
 
 ```bash
-git clone https://github.com/mahsaalidadi/NeuroHEP.git
-cd NeuroHEP
-pip install .
+pip install git+https://github.com/mahsaalidadi/NeuroHEP.git
 ```
 
 ---
