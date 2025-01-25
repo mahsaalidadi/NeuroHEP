@@ -33,27 +33,6 @@ Or install it manually from the source:
 pip install git+https://github.com/mahsaalidadi/NeuroHEP.git
 ```
 
----
-
-## **Requirements** 📋
-
-NeuroHEP requires **Python 3.7+** and the following dependencies:
-
-- `numpy`
-- `scipy`
-- `matplotlib`
-- `mne`
-- `neurokit2`
-- `pandas`
-
-To install all dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## **Usage Example** 🧠
 
 Here’s how to use **NeuroHEP** to process EEG and ECG data for HEP detection:
