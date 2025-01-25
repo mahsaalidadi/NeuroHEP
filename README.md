@@ -59,13 +59,13 @@ filtered_ecg, filtered_eeg = hep.preprocessing.preprocess_ecg_eeg(
 
 # Extract HEPs
 r_peak_indices = hep.detection.detect_r_wave_peaks(filtered_ecg[0], sampling_rate)
-hep, hep_ecg = hep.detection.extract_heps(
+heps, heps_ecg = hep.detection.extract_heps(
     filtered_eeg[0], filtered_ecg[0], r_peak_indices,
     pre_window_ms=100, post_window_ms=300, sampling_rate=sampling_rate
 )
 
 # Visualization
-hep.visualization.plot_ecg_eeg_with_hep()
+hep.visualization.plot_ecg_eeg_with_hep(subject_ecg_signal, subject_eeg_signal, r_peak_indices, pre_window_ms, post_window_ms, sampling_rate)
 ```
 ![download](https://github.com/user-attachments/assets/2e3890d1-89a4-4882-9aa6-47d4d6c3eaf7)
 
