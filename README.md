@@ -24,7 +24,7 @@ The **Heartbeat-Evoked Potential (HEP)** is a brain response that occurs in sync
 You can install **NeuroHEP** directly from PyPI:
 
 ```bash
-pip install NeuroHEP
+pip install neurohep
 ```
 
 Or install it manually from the source:
